@@ -17,7 +17,7 @@ public class ClickToEdit {
     public String start(Model model) {
         model.addAttribute("contact", Contact.demoContact());
         model.addAttribute("now", new Date().toInstant());
-
+        System.out.println("print inside get6");
         return "click-to-edit";
     }
 
